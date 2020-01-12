@@ -1,0 +1,103 @@
+[debug] [2020-01-06T04:20:35.979Z] ----------------------------------------------------------------------
+[debug] [2020-01-06T04:20:36.046Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-01-06T04:20:36.046Z] CLI Version:   7.11.0
+[debug] [2020-01-06T04:20:36.046Z] Platform:      win32
+[debug] [2020-01-06T04:20:36.047Z] Node Version:  v10.16.2
+[debug] [2020-01-06T04:20:36.050Z] Time:          Mon Jan 06 2020 11:20:36 GMT+0700 (Western Indonesia Time)
+[debug] [2020-01-06T04:20:36.050Z] ----------------------------------------------------------------------
+[debug] [2020-01-06T04:20:36.050Z] 
+[debug] [2020-01-06T04:20:36.117Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-06T04:20:36.119Z] > authorizing via signed-in user
+[debug] [2020-01-06T04:20:36.119Z] [iam] checking project smartbox-55413 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2020-01-06T04:20:36.122Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/smartbox-55413:testIamPermissions  
+
+[debug] [2020-01-06T04:20:37.386Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-06T04:20:37.388Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/smartbox-55413  
+ 
+[debug] [2020-01-06T04:20:37.638Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'smartbox-55413'...
+[info] 
+[info] i  deploying database, functions, hosting
+[debug] [2020-01-06T04:20:37.772Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:125:11)
+    at Object.join (path.js:427:7)
+    at Config.path (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:149:39)
+    at getChildEnvironment (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:50:49)
+    at runTargetCommands (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:71:14)
+    at C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:122:24
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-01-06T04:20:46.460Z] ----------------------------------------------------------------------
+[debug] [2020-01-06T04:20:46.467Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-01-06T04:20:46.467Z] CLI Version:   7.11.0
+[debug] [2020-01-06T04:20:46.468Z] Platform:      win32
+[debug] [2020-01-06T04:20:46.468Z] Node Version:  v10.16.2
+[debug] [2020-01-06T04:20:46.469Z] Time:          Mon Jan 06 2020 11:20:46 GMT+0700 (Western Indonesia Time)
+[debug] [2020-01-06T04:20:46.469Z] ----------------------------------------------------------------------
+[debug] [2020-01-06T04:20:46.469Z] 
+[debug] [2020-01-06T04:20:46.490Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-06T04:20:46.492Z] > authorizing via signed-in user
+[debug] [2020-01-06T04:20:46.492Z] [iam] checking project smartbox-55413 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2020-01-06T04:20:46.495Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/smartbox-55413:testIamPermissions  
+
+[debug] [2020-01-06T04:20:52.398Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-06T04:20:52.400Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/smartbox-55413  
+ 
+[debug] [2020-01-06T04:20:53.435Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'smartbox-55413'...
+[info] 
+[info] i  deploying database, functions, hosting
+[debug] [2020-01-06T04:20:53.604Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:125:11)
+    at Object.join (path.js:427:7)
+    at Config.path (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:149:39)
+    at getChildEnvironment (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:50:49)
+    at runTargetCommands (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:71:14)
+    at C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:122:24
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-01-06T04:21:17.012Z] ----------------------------------------------------------------------
+[debug] [2020-01-06T04:21:17.015Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-01-06T04:21:17.015Z] CLI Version:   7.11.0
+[debug] [2020-01-06T04:21:17.015Z] Platform:      win32
+[debug] [2020-01-06T04:21:17.015Z] Node Version:  v10.16.2
+[debug] [2020-01-06T04:21:17.016Z] Time:          Mon Jan 06 2020 11:21:17 GMT+0700 (Western Indonesia Time)
+[debug] [2020-01-06T04:21:17.016Z] ----------------------------------------------------------------------
+[debug] [2020-01-06T04:21:17.016Z] 
+[debug] [2020-01-06T04:21:17.029Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-06T04:21:17.031Z] > authorizing via signed-in user
+[debug] [2020-01-06T04:21:17.031Z] [iam] checking project smartbox-55413 for permissions ["firebase.projects.get"]
+[debug] [2020-01-06T04:21:17.033Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/smartbox-55413:testIamPermissions  
+
+[debug] [2020-01-06T04:21:18.292Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-06T04:21:18.294Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/smartbox-55413  
+ 
+[debug] [2020-01-06T04:21:18.657Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'H:\Development\smartBox'...
+[info] 
+[debug] [2020-01-06T04:21:18.708Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/smartbox-55413/webApps/-/config  
+ 
+[debug] [2020-01-06T04:21:18.878Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:125:11)
+    at Object.join (path.js:427:7)
+    at Object.<anonymous> (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:20:39)
+    at Generator.next (<anonymous>)
+    at C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:3:12)
+    at Object.start (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:18:16)
+    at C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\index.js:15:23
+    at arrayMap (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:639:23)
+    at Function.map (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:9554:14)
+    at _serve (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\index.js:13:26)
+    at Command.module.exports.Command.description.option.option.option.option.before.action [as actionFn] (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\serve.js:58:12)
+    at Command.<anonymous> (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:156:25)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\indra\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:4:58)
+[error] 
+[error] Error: An unexpected error has occurred.
